@@ -1,0 +1,149 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="valami van a levegőben"
+        android:textSize="40dp"
+
+        android:id="@+id/textSwitcher"
+        android:layout_marginTop="30dp"
+        android:animateFirstView="true"
+        android:minWidth="200dp"
+        android:minHeight="80dp"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:context="com.example.levi.securiapp.InteractiveActivity">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton1"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/textView"
+                android:layout_below="@+id/radioButton1"
+                android:layout_centerInParent="true"
+                android:textSize="30dp" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/radioButton2"
+                android:layout_centerInParent="true"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton3"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/radioButton3"
+                android:layout_centerInParent="true"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:checked="false"
+                android:onClick="onRadioButtonClicked"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/radioButton4"
+                android:layout_centerInParent="true"
+                android:textSize="30dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/buttonBack"/>
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="1dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:id="@+id/buttonNext"/>
+
+    </LinearLayout>
+</LinearLayout>
