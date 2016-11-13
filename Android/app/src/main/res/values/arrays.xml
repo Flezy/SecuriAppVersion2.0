@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="posts">
+        <item>WestCoast</item>
+        <item>EastCoast</item>
+    </array>
+</resources>

@@ -1,3 +1,11 @@
+SecuriApp Version 2.0
+Open source 'till the project is ended, after all it's gonna be own project
+Technologies: Python Django, python pdf writer, Angular JS, Chart.js, Android, barcode scanner
+
+
+/* We will not use this library */
+
+// @deprecated
 http://developers.itextpdf.com/apis
 iText Documentation
 
