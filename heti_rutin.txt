@@ -1,7 +1,0 @@
-2016.11.13 - 2016.11.19.
-
-Levente: GIT tényleges összeállítása, Pistit collaborátornak berakni, Android appon javítani a designon, + 1 tervezési javítása benne. MEETING
-
-Alex: Server rendberakása, django-mysql map (a papíron leírtak valószínuleg validok lesznek az attribútumok lehetnek több/kevesebb) -> MEETING megvárása
-
-Pisti: Tanulás + készíteni egy onclick eventet egy divre ami csinál valamit (gyakorlás) 
